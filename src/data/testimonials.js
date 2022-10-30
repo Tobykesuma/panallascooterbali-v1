@@ -1,3 +1,4 @@
+// testimonials photos from clients //
 import profile01 from '../assets/2022/testimonials/client1.jpeg';
 import profile02 from '../assets/2022/testimonials/client2.jpeg';
 import profile03 from '../assets/2022/testimonials/client3.jpeg';
