@@ -11,7 +11,8 @@
 
 .app__header-bg {
     background-color: rgba(231,120,67,0.75);
-    backdrop-filter: blur(15px) saturate(180%);
+    backdrop-filter: blur(5px) saturate(180%);
+    box-shadow: 0 0 4px 0 rgb(115,115,115, 0.20);
 }
 
 .app__header .app__navbar {
@@ -36,7 +37,8 @@
     list-style: none;
     font-size: 22px;
     margin-top: 20px;
-    font-weight: 500;
+    font-weight: 600;
+
 }
 
 .app__header .nav-items li, ul {

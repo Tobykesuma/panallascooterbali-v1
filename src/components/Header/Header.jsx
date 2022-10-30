@@ -36,22 +36,22 @@ const Header = () => {
             {/* Menu Navbar */}
             <ul className={click ? 'nav-menu active' :  'nav-menu'}>
                 <li className='nav-items'>
-                    <Link to='/' onClick={closeMenu}>Home</Link>
+                    <Link to='/' onClick={closeMenu}>HOME</Link>
                 </li>
                 <li className='nav-items'>
-                    <Link to='/about-us' onClick={closeMenu}>About</Link>
+                    <Link to='/about-us' onClick={closeMenu}>ABOUT</Link>
                 </li>
                 <li className='nav-items'>
-                    <Link to='/scooters' onClick={closeMenu}>Rent Scooters</Link>
+                    <Link to='/scooters' onClick={closeMenu}>RENT SCOOTERS</Link>
                 </li>
                 <li className='nav-items'>
-                    <Link to='/services' onClick={closeMenu}>Services</Link>
+                    <Link to='/services' onClick={closeMenu}>SERVICES</Link>
                 </li>
                 <li className='nav-items'>
-                    <Link to='/gallery' onClick={closeMenu}>Gallery</Link>
+                    <Link to='/gallery' onClick={closeMenu}>GALLERY</Link>
                 </li>
                 <li className='nav-items'>
-                    <Link to='/testimonials' onClick={closeMenu}>Testimonials</Link>
+                    <Link to='/testimonials' onClick={closeMenu}>TESTIMONIALS</Link>
                 </li>
 
                 {/* Button Contact Apis WA */}

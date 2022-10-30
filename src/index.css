@@ -22,13 +22,37 @@ section {
   padding: 50px 0px;
 }
 
+.section__title {
+  color: #000d6b;
+  font-weight: 600;
+  font-size: 22px;
+}
 
+.section__description {
+  color : #7c8a97;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.section__subtitle {
+  color: #f9a826;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
 
 
 /* BreakPoints */
 @media only screen and (max-width: 768px){
   section {
     padding: 30px 0px;
+  }
+
+  .section__title {
+    font-size: 1.6rem;
+  }
+
+  .section__subtitle {
+    font-size: 1rem;
   }
 }
 
