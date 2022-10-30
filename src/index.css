@@ -1,12 +1,25 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+section {
+  padding: 50px 0px;
 }
 
 

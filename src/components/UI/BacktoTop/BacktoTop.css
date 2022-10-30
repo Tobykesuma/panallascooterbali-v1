@@ -1,0 +1,27 @@
+.app__scrolltop {
+    z-index: 10;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.scroll-none {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.app__scrolltop a {
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+    z-index: 1;
+}
+
+.app__scrolltop svg {
+    color: white;
+    font-size: 20px;
+}
