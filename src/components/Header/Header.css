@@ -1,0 +1,30 @@
+.app__header {
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;   
+}
+
+.app__header-bg {
+    background-color: rgba(231,120,67,0.75);
+    backdrop-filter: blur(15px) saturate(180%);
+}
+
+.app__header .app__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1800px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.app__header .app__navbar-logo {
+    width: 160px !important;
+    height: auto;
+}
