@@ -1,12 +1,17 @@
 // import all images from assets/images directory //
-
+import fazzio from '../assets/2022/products/fazzio.png'
+import beat from '../assets/2022/products/beat.png'
+import hondapcx from '../assets/2022/products/honda-pcx.png'
+import nmax155 from '../assets/2022/products/nmax155.png'
+import variotechno150 from '../assets/2022/products/variotehno-150.png'
+import vespa125 from '../assets/2022/products/vespa125.png'
 
 
 export const SliderProducts = [
     {
         scooterName : 'New Yamaha Nmax 155',
         shortBrandName : 'yamaha-nmax-155',
-        image : '',
+        image : nmax155,
         dayPrice : '150',
         weekPrice : '900',
         type : 'matic',
@@ -17,7 +22,7 @@ export const SliderProducts = [
     {
         scooterName: 'New Honda PCX',
         shortBrandName: 'honda-pcx',
-        image: '',
+        image: hondapcx,
         dayPrice: '150',
         weekPrice: '900',
         type: 'matic',
@@ -28,7 +33,7 @@ export const SliderProducts = [
     {
         scooterName: 'Honda Vario Techno 150',
         shortBrandName: 'vario-techno-150',
-        image: '',
+        image: variotechno150,
         dayPrice: '80',
         weekPrice: '450',
         type: 'matic',
@@ -54,7 +59,7 @@ export const ScootersData = [
     {
         scooterName : 'New Yamaha Nmax 155',
         shortBrandName : 'yamaha-nmax-155',
-        image : '',
+        image : nmax155,
         dayPrice : '150',
         weekPrice : '900',
         type : 'matic',
@@ -68,7 +73,7 @@ export const ScootersData = [
     {
         scooterName : 'New Honda PCX',
         shortBrandName: 'honda-pcx',
-        image: '',
+        image: hondapcx,
         dayPrice: '150',
         weekPrice: '900',
         type: 'matic',
@@ -82,7 +87,7 @@ export const ScootersData = [
     {
         scooterName : 'Vespa S 125',
         shortBrandName : 'vespa-s-125',
-        image: '',
+        image: vespa125,
         dayPrice: '150',
         weekPrice: '900',
         type: 'matic',
@@ -110,7 +115,7 @@ export const ScootersData = [
     {
         scooterName : 'Yamaha Fazzio',
         shortBrandName : 'yamaha-fazzio',
-        image: '',
+        image: fazzio,
         dayPrice: '90',
         weekPrice: '550',
         type: 'matic',
@@ -124,7 +129,7 @@ export const ScootersData = [
     {
         scooterName : 'Honda Vario 150',
         shortBrandName : 'honda-vario-150',
-        image: '',
+        image: variotechno150,
         dayPrice: '80',
         weekPrice: '500',
         type: 'matic',
@@ -208,7 +213,7 @@ export const ScootersData = [
     {
         scooterName : 'Honda Beat',
         shortBrandName : 'honda-beat',
-        image: '',
+        image: beat,
         dayPrice: '60',
         weekPrice: '400',
         type: 'matic',
