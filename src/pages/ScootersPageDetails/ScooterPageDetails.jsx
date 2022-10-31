@@ -5,8 +5,8 @@ import { ScootersData } from '../../data/scootersData'
 import { Container, Row, Col } from 'reactstrap'
 import './ScooterPageDetails.css'
 import {BsStarFill, BsStarHalf, BsStar, BsBuilding} from 'react-icons/bs'
-
-
+import BookingForm from '../../components/UI/BookingForm/BookingForm'
+import {GiFullMotorcycleHelmet} from 'react-icons/gi'
 const ScooterPageDetails = () => {
     const { slug } = useParams();
     const singleScooterItem = ScootersData.find((item) => item.scooterName === slug);
@@ -57,7 +57,12 @@ const ScooterPageDetails = () => {
 
                             <div className='d-flex align-items-center mt-3' style={{ columnGap: '4rem'}}>
                                 <span className='d-flex align-items-center gap-1 section__description'>
-                                    <BsBuilding style={{ color: '#000' }}>{''}{singleScooterItem.companyScooterName}</BsBuilding>
+                                    <BsBuilding style={{ color: '#000' }}>{""}({singleScooterItem.companyScooterName})</BsBuilding>
+                                </span>
+                                <span className='d-flex align-items-center gap-1 section__description'>
+                                    <GiFullMotorcycleHelmet style={{ color: '#000'}}>
+                                        {singleScooterItem.helm}
+                                    </GiFullMotorcycleHelmet>
                                 </span>
                             </div>
                         </div>
@@ -67,7 +72,7 @@ const ScooterPageDetails = () => {
                         <div className='booking-info mt-5'>
                             <h5 className='mb-4 fw-bold'>Booking Information</h5>
                             {/* Booking pages file from directory UI */}
-
+                            <BookingForm />
                         </div>
                     </Col>
 
