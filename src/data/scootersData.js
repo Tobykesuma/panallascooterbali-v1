@@ -5,7 +5,8 @@ import hondapcx from '../assets/2022/products/honda-pcx.png'
 import nmax155 from '../assets/2022/products/nmax155.png'
 import variotechno150 from '../assets/2022/products/variotehno-150.png'
 import vespa125 from '../assets/2022/products/vespa125.png'
-
+import scoopyfi from '../assets/2022/products/scoopy-new.png'
+import newscoopy from '../assets/2022/products/scoopy-fi.png'
 
 export const SliderProducts = [
     {
@@ -44,7 +45,7 @@ export const SliderProducts = [
     {
         scooterName: 'Honda Scoopy FI',
         shortBrandName : 'honda-scoopy-fi',
-        image: '',
+        image: newscoopy,
         dayPrice: '',
         weekPrice: '',
         type: 'matic',
@@ -185,7 +186,7 @@ export const ScootersData = [
     {
         scooterName : 'Honda Scoopy FI',
         shortBrandName : 'honda-scoopy-fi',
-        image: '',
+        image: scoopyfi,
         dayPrice: '70',
         weekPrice: '425',
         type: 'matic',
@@ -199,7 +200,7 @@ export const ScootersData = [
     {
         scooterName : 'New Honda Scoopy',
         shortBrandName : 'new-honda-scoopy',
-        image: '',
+        image: newscoopy,
         dayPrice: '70',
         weekPrice: '425',
         type: 'matic',
