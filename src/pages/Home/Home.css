@@ -1,0 +1,13 @@
+/* Scooters Items CSS */
+.app__scooters-offer-section {
+    background: #42929D;
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+}
+
+.scooters__offers-section h6 {
+    font-size: 2rem;
+}
+
+.scooters__offers-section h2 {
+    font-size: 3rem;
+}

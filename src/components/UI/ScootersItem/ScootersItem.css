@@ -1,0 +1,80 @@
+.app__scooter-items {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.scooters__item-info {
+    color: #f9a826;
+    font-size: 1rem;
+}
+
+.scooters__item-btn {
+    border-radius: 0;
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    background: #42929D;
+}
+
+.scooters__item-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.scooters__item-btn a:hover {
+    color: black;
+}
+
+.scooter__btn-details {
+    border-radius: 0px 4px 4px 0px;
+    background: #f9a826;
+}
+
+.scooter__btn-rent {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.app__scooter-item-content h4 {
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app__scooter-item-content h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.scooters__item-info span {
+    font-size: 1rem;
+}
+
+
+/* Break Points */
+
+@media only screen and (max-width: 992px) {
+    .app__scooter-item-content h4 {
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+
+    .app__scooter-item-content h6 {
+        font-size: 1.1rem;
+        margin-top: 15px;
+    }
+
+    .scooters__item-info {
+        flex-wrap: wrap;
+    }
+
+    .scooters__item-info span {
+        font-size: 1rem;
+        justify-content: space-between;
+    }
+
+    .scooters__item-btn {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}
