@@ -7,6 +7,13 @@ import variotechno150 from '../assets/2022/products/variotehno-150.png'
 import vespa125 from '../assets/2022/products/vespa125.png'
 import scoopyfi from '../assets/2022/products/scoopy-new.png'
 import newscoopy from '../assets/2022/products/scoopy-fi.png'
+import lexi from '../assets/2022/products/lexi.png'
+import variotechno125 from '../assets/2022/products/variotechno-125.png'
+import genio from '../assets/2022/products/genio.png'   
+import vario125 from '../assets/2022/products/vario-125.png'
+
+
+
 
 export const SliderProducts = [
     {
@@ -29,7 +36,7 @@ export const SliderProducts = [
         type: 'matic',
         companyScooterName : 'Honda',
         category: '',
-        whatsapp: '',
+        whatsapp: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20PCX%20availabel%20?',
     },
     {
         scooterName: 'Honda Vario Techno 150',
@@ -40,7 +47,7 @@ export const SliderProducts = [
         type: 'matic',
         companyScooterName : 'Honda',
         category: '',
-        whatsapp: '',
+        whatsapp: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Vario%20Techno%20125%20availabel%20?',
     },
     {
         scooterName: 'Honda Scoopy FI',
@@ -51,7 +58,7 @@ export const SliderProducts = [
         type: 'matic',
         companyScooterName : 'Honda',
         category: '',
-        whatsapp: '',
+        whatsapp: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Scoopy%20FI%20availabel%20?',
     }
 
 ]
@@ -83,7 +90,7 @@ export const ScootersData = [
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
         rating: 90,
-        whatsapp: '',
+        whatsapp: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20PCX%20availabel%20?',
     },
     {
         scooterName : 'Vespa S 125',
@@ -97,12 +104,12 @@ export const ScootersData = [
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
         rating: 88,
-        whatsapp : '',
+        whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Vespa%20S%20125%20availabel%20?',
     },
     {
         scooterName : 'Yamaha Lexi',
         shortBrandName : 'yamaha-lexi',
-        image: '',
+        image: lexi,
         dayPrice: '90',
         weekPrice: '550',
         type: 'matic',
@@ -111,7 +118,7 @@ export const ScootersData = [
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
         rating: 84,
-        whatsapp : '',
+        whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Yamaha%20Lexi%20availabel%20?',
     },
     {
         scooterName : 'Yamaha Fazzio',
@@ -125,7 +132,7 @@ export const ScootersData = [
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
         rating: 69,
-        whatsapp : '',
+        whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Yamaha%20Fazzio%20availabel%20?',
     },
     {
         scooterName : 'Honda Vario 150',
@@ -139,12 +146,12 @@ export const ScootersData = [
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
         rating: 144,
-        whatsapp : '',
+        whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Vario%20150%20availabel%20?',
     },
     {
         scooterName : 'Honda Vario 125',
         shortBrandName : 'honda-vario-125',
-        image: '',
+        image: vario125,
         dayPrice: '75',
         weekPrice: '450',
         type: 'matic',
@@ -153,12 +160,12 @@ export const ScootersData = [
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
         rating: 132,
-        whatsapp : '',
+        whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Vario%20125%20availabel%20?',
     },
     {
         scooterName : 'Honda Vario Techno 125',
         shortBrandName : 'vario-techno-125',
-        image: '',
+        image: variotechno125,
         dayPrice: '70',
         weekPrice: '425',
         type: 'matic',
@@ -167,12 +174,12 @@ export const ScootersData = [
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
         rating: 105,
-        whatsapp : '',
+        whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Vario%20Techno%20125%20availabel%20?',
     },
     {
         scooterName : 'Honda Genio',
         shortBrandName : 'honda-genio',
-        image: '',
+        image: genio,
         dayPrice: '70',
         weekPrice: '425',
         type: 'matic',
@@ -181,7 +188,7 @@ export const ScootersData = [
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
         rating: 80,
-        whatsapp : '',
+        whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Genio%20availabel%20?',
     },
     {
         scooterName : 'Honda Scoopy FI',
@@ -195,7 +202,7 @@ export const ScootersData = [
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
         rating: 151,
-        whatsapp : '',
+        whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Scoopy%20FI%20availabel%20?',
     },
     {
         scooterName : 'New Honda Scoopy',
@@ -209,7 +216,7 @@ export const ScootersData = [
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
         rating: 146,
-        whatsapp : '',
+        whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Scoopy%20availabel%20?',
     },
     {
         scooterName : 'Honda Beat',
@@ -223,6 +230,6 @@ export const ScootersData = [
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
         rating: 77,
-        whatsapp : '',
+        whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Beat%20availabel%20?',
     },
 ]

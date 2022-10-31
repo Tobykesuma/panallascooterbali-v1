@@ -13,36 +13,43 @@ export const TestimonialsData = [
     {
         image : profile01,
         comment : 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        icon : '',
         name : 'Tobi Kesuma',
     },
     {
         image : profile02,
         comment : 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        icon : '',
         name : 'Tobikesuma',
     },
     {
         image : profile03,
         comment : 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        icon : '',
         name : 'Tobikesuma',
     },
     {
         image : profile04,
         comment : 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        icon : '',
         name : 'Tobikesuma',
     },
     {
         image : profile05,
         comment : 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        icon : '',
         name : 'Tobikesuma',
     },
     {
         image : profile06,
         comment : 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        icon : '',
         name : 'Tobikesuma',
     },
     {
         image : profile07,
         comment : 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        icon : '',
         name : 'Tobikesuma',
     },
 ]
