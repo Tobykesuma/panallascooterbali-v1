@@ -7,6 +7,7 @@ import './Home.css'
 
 
 const Home = () => {
+  
   return (
     <Helmet title='Home'>
       {/* Hero Section */}

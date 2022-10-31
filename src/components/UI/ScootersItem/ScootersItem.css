@@ -13,7 +13,7 @@
     border: none;
     outline: none;
     padding: 10px 0px;
-    background: #42929D;
+    background: #E77937;
 }
 
 .scooters__item-btn a {
@@ -29,6 +29,8 @@
 .scooter__btn-details {
     border-radius: 0px 4px 4px 0px;
     background: #f9a826;
+    /* background: transparent; */
+    /* border: 1px solid white; */
 }
 
 .scooter__btn-rent {

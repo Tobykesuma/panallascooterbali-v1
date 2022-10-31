@@ -16,7 +16,7 @@ const ScooterPageDetails = () => {
 
   return (
     <Helmet title={singleScooterItem.scooterName}>
-        <section>
+        <section className='pt-5 mt-5'>
             <Container>
                 <Row>
                     <Col lg='6'>
@@ -25,15 +25,20 @@ const ScooterPageDetails = () => {
 
                     <Col lg='6'>
                         <div className='app__scooters-info'>
-                            <h2 className='section__title'>{singleScooterItem.scooterName}</h2>
+                            <h2 className='section__title mb-3 mt-4'>{singleScooterItem.scooterName}</h2>
                             <div className='d-flex align-items-center gap-5 mb-4 mt-3'>
                                 <h6 className='rent__price fw-bold fs-4'>
-                                    IDR{singleScooterItem.dayPrice}K Rupiah / Day
+                                    IDR {singleScooterItem.dayPrice}K Rupiah / Day
                                 </h6>
-                                <h6 className='rent__price fw-bold fs-4'>
-                                    IDR{singleScooterItem.weekPrice}K Rupiah / Week
-                                </h6>
+                            </div>
 
+                            <div className='d-flex align-items-center gap-5 mb-4 mt-3'>
+                            <h6 className='rent__price fw-bold fs-4'>
+                                    IDR {singleScooterItem.weekPrice}K Rupiah / Week
+                                </h6>
+                            </div>
+                            
+                            <div className='d-flex align-items-center gap-5 mb-4 mt-3'>
                                 <span className='d-flex align-items-center gap-2'>
                                     <span style={{ color: '#000'}}>
                                         <BsStarFill />
