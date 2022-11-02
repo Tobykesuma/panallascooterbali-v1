@@ -10,9 +10,10 @@ import newscoopy from '../assets/2022/products/scoopy-fi.png'
 import lexi from '../assets/2022/products/lexi.png'
 import variotechno125 from '../assets/2022/products/variotechno-125.png'
 import genio from '../assets/2022/products/genio.png'   
-import vario125 from '../assets/2022/products/vario-125.png'
+import vario125 from '../assets/2022/products/vario-1255.png'
 
-
+// <i class="ri-star-line"></i> //
+// <i class="ri-star-half-fill"></i> //
 
 
 export const SliderProducts = [
@@ -72,6 +73,16 @@ export const ScootersData = [
         weekPrice : '900',
         type : 'matic',
         companyScooterName : 'Yamaha',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-fill">
+                        <i class="ri-star-fill">
+                        </i>
+                    </i>
+                </i>
+            </i>
+        </i> ,
         category: 'high',
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
@@ -86,6 +97,15 @@ export const ScootersData = [
         weekPrice: '900',
         type: 'matic',
         companyScooterName : 'Honda',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-fill">
+                        <i class="ri-star-half-fill"></i>
+                    </i>
+                </i>
+            </i>
+        </i>,
         category: 'high',
         seatType: '2',
         helm: '2',
@@ -101,9 +121,18 @@ export const ScootersData = [
         weekPrice: '900',
         type: 'matic',
         companyScooterName : 'Vespa',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-fill">
+                        <i class="ri-star-line"></i>
+                    </i>
+                </i>
+            </i>
+        </i>,
         category : 'high',
         seatType: '2',
-        description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
+        description: 'Gaya Vespa S yang terus diperbaharui untuk meningkatkan nuansa sporty, hadir dalam wujud yang benar-benar baru pada front tie, pengenalan teknologi LED pada headlamp yang memiliki bentuk baru, dan Daytime Running Light baru. Panel instrumen baru modern dan mengkombinasikan layar digital LCD dan speedometer yang merupakan representasi dari kombinasi sempurna antara tradisi dan inovasi. Tambahan estetis baru dengan kombinasi polesan hitam matt dan glossy terdapat di beberapa elemen seperti kaca spion hitam baru, frame headlamp hitam baru, pinggiran shield  hitam baru, heat cover knalpot hitam baru, pelek hitam baru, dan elemen decal grafis hitam baru di bodi.',
         rating: 88,
         whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Vespa%20S%20125%20availabel%20?',
     },
@@ -115,9 +144,18 @@ export const ScootersData = [
         weekPrice: '550',
         type: 'matic',
         companyScooterName : 'Yamaha',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-fill">
+                        <i class="ri-star-line"></i>
+                    </i>
+                </i>
+            </i>
+        </i>,
         category : 'low',
         seatType: '2',
-        description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
+        description: 'Yamaha Lexi (sebelumnya bernama Yamaha Xeon) adalah sebuah skuter bertransmisi otomatis yang diproduksi oleh Yamaha sejak tahun 2018. Skuter ini pertama kali diluncurkan pada awal tahun 2018. Skuter ini merupakan produk kelima yang berada di dalam deretan seri skuter MAXI Yamaha di Indonesia. Skuter ini menggunakan basis mesin yang serupa dengan NMAX 125.',
         rating: 84,
         whatsapp : 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Yamaha%20Lexi%20availabel%20?',
     },
@@ -129,6 +167,15 @@ export const ScootersData = [
         weekPrice: '550',
         type: 'matic',
         companyScooterName : 'Yamaha',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-half-fill">
+                        <i class="ri-star-line"></i>
+                    </i>
+                </i>
+            </i>
+        </i>,
         category : 'low',
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
@@ -143,6 +190,15 @@ export const ScootersData = [
         weekPrice: '500',
         type: 'matic',
         companyScooterName : 'Honda',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-fill">
+                        <i class="ri-star-fill"></i>
+                    </i>
+                </i>
+            </i>
+        </i>,
         category : 'low',
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
@@ -157,6 +213,15 @@ export const ScootersData = [
         weekPrice: '450',
         type: 'matic',
         companyScooterName : 'Honda',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-fill">
+                        <i class="ri-star-fill"></i>
+                    </i>
+                </i>
+            </i>
+        </i>,
         category : 'low',
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
@@ -171,6 +236,15 @@ export const ScootersData = [
         weekPrice: '425',
         type: 'matic',
         companyScooterName : 'Honda',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-fill">
+                        <i class="ri-star-fill"></i>
+                    </i>
+                </i>
+            </i>
+        </i>,
         category : 'low',
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
@@ -185,6 +259,15 @@ export const ScootersData = [
         weekPrice: '425',
         type: 'matic',
         companyScooterName : 'Honda',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-fill">
+                        <i class="ri-star-half-fill"></i>
+                    </i>
+                </i>
+            </i>
+        </i>,
         category : 'low',
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
@@ -199,6 +282,15 @@ export const ScootersData = [
         weekPrice: '425',
         type: 'matic',
         companyScooterName : 'Honda',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-fill">
+                        <i class="ri-star-fill"></i>
+                    </i>
+                </i>
+            </i>
+        </i>,
         category : 'low',
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
@@ -213,6 +305,15 @@ export const ScootersData = [
         weekPrice: '425',
         type: 'matic',
         companyScooterName : 'Honda',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-fill">
+                        <i class="ri-star-fill"></i>
+                    </i>
+                </i>
+            </i>
+        </i>,
         category : 'low',
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',
@@ -227,6 +328,15 @@ export const ScootersData = [
         weekPrice: '400',
         type: 'matic',
         companyScooterName : 'Honda',
+        remixicons : <i class="ri-star-fill">
+            <i class="ri-star-fill">
+                <i class="ri-star-fill">
+                    <i class="ri-star-fill">
+                        <i class="ri-star-half-fill"></i>
+                    </i>
+                </i>
+            </i>
+        </i>,
         category : 'low',
         seatType: '2',
         description: 'Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.',

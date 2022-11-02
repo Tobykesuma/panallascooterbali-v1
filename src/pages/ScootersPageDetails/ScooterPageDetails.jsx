@@ -41,11 +41,7 @@ const ScooterPageDetails = () => {
                             <div className='d-flex align-items-center gap-5 mb-4 mt-3'>
                                 <span className='d-flex align-items-center gap-2'>
                                     <span style={{ color: '#000'}}>
-                                        <BsStarFill />
-                                        <BsStarFill />
-                                        <BsStarFill />
-                                        <BsStarFill />
-                                        <BsStarHalf />
+                                        ({singleScooterItem.remixicons})
                                     </span>
                                     ({singleScooterItem.rating} ratings)
                                 </span>
@@ -57,7 +53,7 @@ const ScooterPageDetails = () => {
 
                             <div className='d-flex align-items-center mt-3' style={{ columnGap: '4rem'}}>
                                 <span className='d-flex align-items-center gap-1 section__description'>
-                                    <BsBuilding style={{ color: '#000' }}>{""}({singleScooterItem.companyScooterName})</BsBuilding>
+                                    <BsBuilding style={{ color: '#000' }}>({singleScooterItem.companyScooterName})</BsBuilding>
                                 </span>
                                 <span className='d-flex align-items-center gap-1 section__description'>
                                     <GiFullMotorcycleHelmet style={{ color: '#000'}}>
