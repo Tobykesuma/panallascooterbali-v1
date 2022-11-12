@@ -6,8 +6,11 @@ import {BsBuilding} from 'react-icons/bs'
 import {FaUserCheck} from 'react-icons/fa'
 import {FiSettings} from 'react-icons/fi'
 
+
 const ScootersItem = (props) => {
+
     const { image, dayPrice, weekPrice, scooterName, whatsapp, companyScooterName, type, seatType, } = props.item;
+
 
     return (
         <Col lg='4' md='4' sm='6' className='mb-5'>
@@ -18,6 +21,7 @@ const ScootersItem = (props) => {
 
                 <div className='app__scooter-item-content mt-4'>
                     <h4 className='section__title text-center'>{scooterName}</h4>
+                    <div className='app__border-radius' />
                     <h6 className='rent__price text-start mt-'>
                         IDR {dayPrice}K Rupiah <span>/ Day</span>
                     </h6>
