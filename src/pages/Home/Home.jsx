@@ -1,10 +1,9 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import Helmet from '../../components/Helmet/Helmet';
 import { Container, Row, Col } from 'reactstrap';
 import {ScootersData} from '../../data/scootersData';
 import ScootersItem from '../../components/UI/ScootersItem/ScootersItem';
 import './Home.css'
-import Filter from '../../components/UI/ScootersItem/Filter';
 import GoogleMaps from '../../components/UI/GoogleMaps/GoogleMaps';
 
 const Home = () => {
@@ -34,9 +33,6 @@ const Home = () => {
               <h6 className='section__subtitle'>Come with</h6>
               <h2 className='section__title'>Hot Offers</h2>
             </Col>
-
-            <Filter />
-
             {
               ScootersData.slice(0, 12).map((item) => (
                 <ScootersItem item={item} key={item.id} />

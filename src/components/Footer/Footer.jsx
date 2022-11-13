@@ -14,12 +14,12 @@ const Footer = () => {
 
           <div className='footer-column'>
             <div className='footer-column-content'>
-              <Link to=''>
+              {/* <Link to=''>
               <img src={imageData.mainlogo} alt='' />
               </Link>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum error quasi, fugit, incidunt blanditiis quae autem delectus ducimus commodi quis quaerat labore ratione facilis consectetur nemo voluptas quisquam debitis dolorum!
-              </p>
+              </p> */}
             </div>
           </div>
 

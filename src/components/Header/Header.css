@@ -110,7 +110,7 @@
 
     .nav-menu {
         position: fixed;
-        left: -1105px;
+        left: -1505px;
         top: 150px;
         flex-direction: column;
         background-color: #E77937;
@@ -166,7 +166,7 @@
     }
 
     .nav-menu {
-      left: -550px;
+      left: -445px;
     }
 
     .app__header .nav-menu a {

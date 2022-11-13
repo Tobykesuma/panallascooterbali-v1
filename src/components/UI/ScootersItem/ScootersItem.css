@@ -76,7 +76,7 @@
 
 /* Filter Section CSS */
 
-.filter__container button {
+/* .filter__container button {
     margin-right: 0.5rem;
     margin-bottom: 1rem;
     min-width: 5rem;
@@ -86,14 +86,14 @@
     color: white;
     border-radius: 1rem;
     /* border: 2px solid rgb(65,98,168); */
-    font-weight: 500;
+    /* font-weight: 500;
     cursor: pointer;
-}
+*/ 
 
-.filter__container button.active {
+/* .filter__container button.active {
     background: rgb(65,98,168);
     color: white;
-}
+} */
 
 /* Break Points */
 
