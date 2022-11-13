@@ -5,6 +5,7 @@ import {ScootersData} from '../../data/scootersData';
 import ScootersItem from '../../components/UI/ScootersItem/ScootersItem';
 import './Home.css'
 import Filter from '../../components/UI/ScootersItem/Filter';
+import GoogleMaps from '../../components/UI/GoogleMaps/GoogleMaps';
 
 const Home = () => {
 
@@ -46,6 +47,7 @@ const Home = () => {
         </Container>
       </section>
 
+      <GoogleMaps />
 
     </Helmet>
   )

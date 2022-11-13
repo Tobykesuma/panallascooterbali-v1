@@ -1,0 +1,75 @@
+.app__googlemaps {
+    position: relative;
+    background-color: #E77937;
+}
+
+iframe {
+    width: 100%;
+    margin-bottom: -10px;
+    height: 55rem;
+}
+
+.map .address {
+    position: absolute;
+    top: 95px;
+    right: 30px;
+}
+
+.map .address h3 {
+    color: black;
+    background-color: #E77937;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0;
+    line-height: 1;
+    margin: 0;
+}
+
+.map .address .address-info {
+    background-color: white;
+    padding: 40px;
+}
+
+.map .address .address-info .maps__email {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.map .address .address-info svg {
+    margin-right: 15px;
+    color: black;
+}
+
+.map .address .address-info ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.map .address .address-info a:hover {
+    color: #E77937;
+}
+
+.map .address .address-info svg:hover {
+    color: #E77937;
+}
+
+.map .address .address-info ul li {
+    font-size: 20px;
+}
+
+
+/* Break Points */
+
+@media only screen and (max-width: 992px) {
+    .map .address {
+        right: 0px;
+        display: none;
+    }
+
+    iframe {
+        height: 35rem;
+    }
+}

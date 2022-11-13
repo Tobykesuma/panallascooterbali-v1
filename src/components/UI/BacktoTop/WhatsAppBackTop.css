@@ -1,7 +1,7 @@
-.app__scrolltop {
+.app__whatsapptop {
     z-index: 10;
     position: fixed;
-    bottom: 30px;
+    bottom: 100px;
     right: 30px;
 }
 
@@ -10,34 +10,37 @@
     visibility: hidden;
 }
 
-.app__scrolltop a {
-    background-color: transparent;
+.app__whatsapptop a {
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
     transition: 0.4s ease-in-out;
     z-index: 1;
 }
 
-.app__scrolltop svg {
+.app__whatsapptop svg {
     color: white;
     font-size: 45px;
 }
 
-
-.app__scrolltop svg:hover {
+.app__whatsapptop svg:hover {
     color: #E77937;
 }
 
 /* Break Points */
 
 @media only screen and (max-width: 992px) {
-    .app__scrolltop svg {
+    .app__whatsapptop svg {
         font-size: 35px;
     }
 
-    .app__scrolltop a {
+    .app__whatsapptop a {
         border-radius: 20%;
     }
+    .app__whatsapptop {
+    bottom: 80px;
+}
+
 }
