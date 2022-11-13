@@ -1,0 +1,130 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #E77937;
+}
+
+.app__footer-logo img {
+    width: 280px !important;
+    height: auto;
+}
+
+.app__footer-desc  {
+    color: white;
+    margin-top: 20px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.app__footer-title {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.quick__links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.quick__links {
+    border: none !important;
+    background: transparent !important;
+}
+
+.quick__links a:hover {
+    color: #42929D;
+}
+
+.app__footer-info p {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.app__footer-info svg {
+    color: white;
+    margin-right:15px;
+}
+
+.app__footer-info svg:hover {
+    color: #42929D;
+}
+
+.app__footer-info a:hover {
+    color: #42929D;
+}
+
+.app__footer-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.app__footer-desc-btm svg {
+    font-size: 20px;
+    color: white;
+}
+
+.app__footer-bottom {
+    display: flex;
+}
+
+.app__footer-desc-btm  {
+    font-size: 18px;
+    display: flex;
+    color: white;
+}
+
+.app__footer-desc-btm a {
+    text-decoration: none;
+    color: white;
+}
+
+.app__footer-desc-btm a:hover {
+    color: #42929D;
+}
+
+.footer__border-top {
+    border-top: 1px solid white;
+    padding-top: 15px;
+}
+
+
+
+/* Break Points */
+
+@media only screen and (max-width: 990px) {
+    .app__footer-desc-btm {
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__footer-desc-btm svg {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .app__footer-bottom {
+        display: inline-block;
+        justify-content: center !important;
+    }
+
+    .footer__border-top {
+        padding-top: 10px;
+    }
+
+    .footer {
+        padding-bottom: 0px;
+    }
+
+    .app__footer-logo img {
+        width: 180px !important;
+        height: auto;
+    }
+}
+

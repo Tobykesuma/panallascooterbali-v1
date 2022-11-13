@@ -120,6 +120,7 @@
         text-align: center;
         transition: .3s;
         align-items: center;
+        height: 100%;
     }
 
     .nav-menu.active {

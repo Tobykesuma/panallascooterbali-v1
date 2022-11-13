@@ -26,7 +26,7 @@ const GoogleMaps = () => {
                             <li><a href='https://goo.gl/maps/vzGjfiBPe4BRUwPu5' target='__blank'><ImLocation2 />Jl. Benesari No 01, Kec. Kuta, Badung, Bali, 80361</a></li>
                             <li><a href='https://wa.me/6287862121513?text=Hello%20Panalla%20Scooters%20Bali%20I%20want%20to%20rent%20scooter.%20Please%20give%20your%20scooter%20recomendations.' target='__blank'><BsFillTelephoneOutboundFill />+62 878 6212 1513</a></li>
                             <li className='maps__email'><a href='mailto:panallascooterbali@gmail.com' target='__blank'><TfiEmail />panallascootersbali@gmail.com</a></li>
-                            <li><a href='https://goo.gl/maps/vzGjfiBPe4BRUwPu5' target='__blank'><IoIosTime />Mon - Fri : 9:00 AM - 21:00 PM</a></li>
+                            <li><a href='https://goo.gl/maps/vzGjfiBPe4BRUwPu5' target='__blank'><IoIosTime />Mon - Sun : 9:00 AM - 21:00 PM</a></li>
                         </ul>
                     </div>
                 </div>
