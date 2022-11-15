@@ -1,0 +1,39 @@
+.app__testimoni {
+    padding: 150px 0px;
+}
+
+.app__testimoni-subtext {
+    font-size: 24px;
+    color: black;
+}
+
+.app__testimoni-title {
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+}
+
+.app__testimoni-desc {
+    font: 1rem;
+    line-height: 30px;
+}
+
+/* Break Points */
+@media only screen and (max-width: 768px) {
+    .testimoni p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .testimoni h6 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .testimonials img {
+        width: 60px !important;
+        height: 60px !important;
+        object-fit: cover;
+    }
+}

@@ -5,6 +5,8 @@ import {ScootersData} from '../../data/scootersData';
 import ScootersItem from '../../components/UI/ScootersItem/ScootersItem';
 import './Home.css'
 import GoogleMaps from '../../components/UI/GoogleMaps/GoogleMaps';
+import AboutSection from '../../components/UI/AboutSection/AboutSection';
+import Testimoni from '../../components/UI/Testimoni/Testimoni';
 
 const Home = () => {
 
@@ -24,6 +26,8 @@ const Home = () => {
       <section className='p-0 hero__slider-section'>
         
       </section>
+      
+      
 
       {/* Scooters Offer Section */}
       <section className='app__scooters-offer-section ' id='scooters item'>
@@ -42,6 +46,10 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+
+      {/* About Section */}
+      <AboutSection id='aboutpage'/>
+      <Testimoni id='testimoni' />
 
       <GoogleMaps />
 

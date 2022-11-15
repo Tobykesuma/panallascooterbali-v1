@@ -35,7 +35,7 @@ const Footer = () => {
 
   const quickLinksFooter2 = [
     {
-      path: '/https://wa.me/6287862121513?text=Hello%20Panalla%20Scooters%20Bali%20I%20want%20to%20rent%20scooter.%20Please%20give%20your%20scooter%20recomendations.',
+      path: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooters%20Bali%20I%20want%20to%20rent%20scooter.%20Please%20give%20your%20scooter%20recomendations.',
       display: 'Contact us',
     },
     {

@@ -5,6 +5,7 @@ import {
     Row,
     Col
 } from 'reactstrap'
+import imageData from '../../../data/imageData'
 
 
 
@@ -46,7 +47,7 @@ const AboutSection = ({ aboutClass }) => {
                 <Col lg='6' md='6'>
                     <div className='about__images'>
                         {/* array about images */}
-                        {/* <img src={} alt='' className='w-100' /> */}
+                        <img src={imageData.AboutImageHero} alt='' className='w-100 rounded-5' />
                     </div>
                 </Col>
             </Row>
