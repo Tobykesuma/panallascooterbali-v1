@@ -1,6 +1,7 @@
 .app__googlemaps {
     position: relative;
     background-color: #E77937;
+    /* background-image: url(../../../assets//2022//heroimages//bg-maps.jpg); */
 }
 
 iframe {

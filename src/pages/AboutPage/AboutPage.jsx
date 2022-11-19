@@ -17,7 +17,7 @@ const AboutPage = () => {
             <Row>
               <Col lg='6' md='6' sm='12'>
                 <div className='about__page-img'>
-                  <img src={imageData.AboutImage} alt='' className='w-100 rounded-5' />
+                  <img src={imageData.AboutBg} alt='' className='w-100 rounded-5' />
                 </div>
               </Col>
 

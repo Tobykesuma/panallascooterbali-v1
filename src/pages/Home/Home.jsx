@@ -7,6 +7,7 @@ import './Home.css'
 import GoogleMaps from '../../components/UI/GoogleMaps/GoogleMaps';
 import AboutSection from '../../components/UI/AboutSection/AboutSection';
 import Testimoni from '../../components/UI/Testimoni/Testimoni';
+import AboutPage from '../AboutPage/AboutPage';
 
 const Home = () => {
 
@@ -49,8 +50,29 @@ const Home = () => {
 
       {/* About Section */}
       <AboutSection id='aboutpage'/>
-      <Testimoni id='testimoni' />
 
+      {/* Testimoni Section */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg='12' className='mb-4 text-center'>
+              <h6 className='testimoni__subtitle'>Our Clients Says</h6>
+              <h2 className='testimoni__title'>Testimonials</h2>
+            </Col>
+            <Testimoni id='testimoni' />
+
+          </Row>
+        </Container>
+      </section>
+      
+
+            {/*  <section className='app__testimoni'>
+      <Container>
+        <Row>
+          <Col lg='12' className='mb-4 text-center'>
+            <h6 className='app__testimoni-subtext'>What Our Clients Says</h6>
+            <h2 className='app__testimoni-title'>Testimonials</h2>
+          </Col> */}
       <GoogleMaps />
 
     </Helmet>
