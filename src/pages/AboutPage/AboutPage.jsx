@@ -11,7 +11,7 @@ const AboutPage = () => {
   return (
     <Helmet title='About Us'>
         <CommonSection title='About Us' />
-    <AboutSection aboutClass='aboutPage' />
+    {/* <AboutSection aboutClass='aboutPage' /> */}
         <section className='about__page-section'>
           <Container>
             <Row>

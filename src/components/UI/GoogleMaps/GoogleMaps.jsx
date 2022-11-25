@@ -20,7 +20,7 @@ const GoogleMaps = () => {
 
             <div className='map'>
                 <div className='address'>
-                    <h3>OUR OFFICE</h3>
+                    <h3>HEAD OFFICE</h3>
                     <div className='address-info'>
                         <ul>
                             <li><a href='https://goo.gl/maps/vzGjfiBPe4BRUwPu5' target='__blank'><ImLocation2 />Jl. Benesari No 01, Kec. Kuta, Badung, Bali, 80361</a></li>

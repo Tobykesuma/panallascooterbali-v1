@@ -12,8 +12,8 @@ import imageData from '../../../data/imageData'
 const AboutSection = ({ aboutClass }) => {
 
   return (
-    <section className='app__about-section' style={aboutClass === 'aboutPage' ? { marginTop: '0px'} 
-    : { marginTop: '280px'}}>
+    <section className='app__about-section'>
+        {/* style={aboutClass === 'aboutPage' : {marginTop: '280px'}} */}
         <Container>
             <Row>
                 <Col lg='6' md='6'>
